@@ -123,6 +123,8 @@ public class RNPermissionsModule extends ReactContextBaseJavaModule implements P
       return "RECEIVE_WAP_PUSH";
     if (permission.equals("android.permission.RECORD_AUDIO"))
       return "RECORD_AUDIO";
+    if (permission.equals("android.permission.SCHEDULE_EXACT_ALARM"))
+      return "SCHEDULE_EXACT_ALARM";
     if (permission.equals("android.permission.SEND_SMS"))
       return "SEND_SMS";
     if (permission.equals("android.permission.USE_SIP"))

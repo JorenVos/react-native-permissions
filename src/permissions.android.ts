@@ -29,6 +29,7 @@ const ANDROID = Object.freeze({
   RECEIVE_SMS: 'android.permission.RECEIVE_SMS',
   RECEIVE_WAP_PUSH: 'android.permission.RECEIVE_WAP_PUSH',
   RECORD_AUDIO: 'android.permission.RECORD_AUDIO',
+  SCHEDULE_EXACT_ALARM: 'android.permission.SCHEDULE_EXACT_ALARM',
   SEND_SMS: 'android.permission.SEND_SMS',
   USE_SIP: 'android.permission.USE_SIP',
   WRITE_CALENDAR: 'android.permission.WRITE_CALENDAR',

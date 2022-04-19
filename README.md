@@ -182,6 +182,7 @@ Add all wanted permissions to your app `android/app/src/main/AndroidManifest.xml
   <uses-permission android:name="android.permission.RECEIVE_SMS" />
   <uses-permission android:name="android.permission.RECEIVE_WAP_PUSH" />
   <uses-permission android:name="android.permission.RECORD_AUDIO" />
+  <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
   <uses-permission android:name="android.permission.SEND_SMS" />
   <uses-permission android:name="android.permission.USE_SIP" />
   <uses-permission android:name="android.permission.WRITE_CALENDAR" />
@@ -468,6 +469,7 @@ PERMISSIONS.ANDROID.RECEIVE_MMS;
 PERMISSIONS.ANDROID.RECEIVE_SMS;
 PERMISSIONS.ANDROID.RECEIVE_WAP_PUSH;
 PERMISSIONS.ANDROID.RECORD_AUDIO;
+PERMISSIONS.ANDROID.SCHEDULE_EXACT_ALARM;
 PERMISSIONS.ANDROID.SEND_SMS;
 PERMISSIONS.ANDROID.USE_SIP;
 PERMISSIONS.ANDROID.WRITE_CALENDAR;
